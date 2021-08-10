@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    transform: translate(60%, 50%);
+}
+.g-logo-center {
+    height: 92px;
+    width: 272px;
+    margin-bottom: 38px;
+}
+.searchicon {
+    padding: 0;
+    height: 24px;
+    width: 24px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 14px;
+    cursor: default;
+    color: #70757a;
+}
+.searchbar {
+    border-style: solid;
+    width: 561px;
+    border-width: 1px;
+    border-color: whitesmoke;
+    height: 44px;
+    display: flex;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    box-shadow: 2px 2px 6px 1px rgb(128 128 128 / 40%);
+}
+.searchinput {
+    padding: 0;
+    border: none;
+    flex: 1 1 auto;
+}
+.voicesearchbtn {
+    background: url(googlemic_clr_24px.svg) no-repeat center;
+    height: 100%;
+    width: 26px;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    margin-right: 16px;
+    margin-left: 8px;
+}
+
+nav {
+    display: grid;
+    width: 100%;
+    grid-template: "navleftside navrightside";
+    /* height: 48px; */
+    line-height: 48px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: grid;
+    width: 100%;
+    grid-template: "ftr-lft-side ftr-rght-side";
+    background-color: #80808026;
+    line-height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+}
+.footer > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+}
+a {
+    text-decoration: none;
+}
+.navleft {
+    justify-content: start;
+    grid-template-columns: auto auto;
+    grid-area: navleftside;
+}
+.ftr-left {
+    justify-content: start;
+    grid-template-columns: auto auto auto;
+    grid-area: ftr-lft-side;
+}
+.navright {
+    justify-content: end;
+    grid-template-columns: auto auto 40px 40px;
+    grid-area: navrightside;
+    padding-right: 10px;
+}
+.ftr-right {
+    justify-content: end;
+    grid-template-columns: auto auto auto;
+    grid-area: ftr-rght-side;
+}
+.navbar a {
+    color: #222;
+}
+.footer a {
+    color: #70757a;
+}
+.navbar li, .footer li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.falsebtn {
+    width: 40px;
+    height: 48px;
+    cursor: pointer;
+    /* padding-right: 12px; */
+    /* padding-left: 12px; */
+}
+.navbar i {
+    color: black;   
+    vertical-align: middle;
+}
+.mydetailsbtn {
+    border-radius: 50%;
+    border: none;
+    border-color: #222;
+    border-width: 0.5px;
+    border-style: solid;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    cursor: pointer;
+}
