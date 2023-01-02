@@ -1,1 +1,5 @@
-My implementation of the Google Homepage Mini-project from The Odin Project's Web Development Curriculum.
+# google search homepage
+
+UI clone of Google Search page created with HTML and CSS
+
+[Live Demo](https://womoemy.github.io/google-homepage/) :point_left:
